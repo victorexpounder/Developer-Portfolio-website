@@ -40,6 +40,7 @@ function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dot = document.getElementsByClassName("dot");
+  console.log(slides.length)
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
     slides[i].style.transform = "translateX(-1016px)";
